@@ -19,7 +19,6 @@ private:
 public:
     long long getcardNumber()
     {
-        cout << "Getting CardNumbers" << endl;
         return cardNumber;
     }
 
@@ -52,7 +51,6 @@ public:
         token = line.substr(0, pos);
         pin = stoi(token);
 
-        cout << "Card Readed SuccessFully for index " << endl;
     }
 };
 
